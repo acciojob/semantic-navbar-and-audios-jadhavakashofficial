@@ -1,2 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
 
-/* Your CSS Code here. */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+}
+
+audio {
+  display: block;
+  margin: 15px 0;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 16px;
+  cursor: pointer;
+}

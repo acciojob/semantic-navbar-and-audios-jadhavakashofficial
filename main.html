@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Semantic Navbar & Audios</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <nav>
+    <ul>
+      <li><a href="https://example.com">Home</a></li>
+      <li><a href="https://example.com/about">About</a></li>
+      <li><a href="https://example.com/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>3 random audios</h2>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+    </audio>
+    <audio controls>
+      <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+  <button id="toggleBtn">Toggle Background</button>
+  <script src="script.js"></script>
 </body>
-
 </html>
