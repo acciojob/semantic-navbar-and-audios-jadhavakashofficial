@@ -2,33 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Navbar & Audios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        audio {
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Part 1: Semantic Navigation Bar -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-
-    <!-- Audio Section -->
-    <section>
-        <h2>3 random audios</h2>
-        <audio controls>
-            <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <audio controls>
-            <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-            Your browser does not support the audio element.
-        </audio>
-        <audio controls>
-            <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
+    
+    <!-- Part 2: Audio Section -->
+    <h2>3 Random Audios</h2>
+    <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptordemos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio controls>
+        <source src="http://codeskulptordemos.commondatastorage.googleapis.com/pang/pazamoduless.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 </body>
 </html>
